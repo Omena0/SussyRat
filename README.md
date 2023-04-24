@@ -24,4 +24,4 @@ You can name ips using this command while connected to a client.
 
 # Images
 
-[server startup](images/serverStartup.png)
+![server startup](images/serverStartup.png)
