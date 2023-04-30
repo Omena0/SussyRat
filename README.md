@@ -43,4 +43,4 @@ You can name ips using this command while connected to a client.
 
 ![server startup](images/serverStartup.png)
 
-[Omg ip leaked](get_baited.gif)
+[Omg ip leaked](images/get_baited.gif)
