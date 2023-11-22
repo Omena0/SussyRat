@@ -1,4 +1,4 @@
-from _modules import banner, tunnel, kbhit
+from _modules import banner, kbhit
 import os
 
 os.system('cls')
@@ -203,10 +203,6 @@ s.listen(10)
 
 clientIndex = 0
 stop = 0
-
-sleep(0.4)
-print('[INIT] Starting FRP Tunnel...')
-tunnel.start()
 
 sleep(0.3)
 print('[INIT] Starting Masted handler..')
