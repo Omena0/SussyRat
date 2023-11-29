@@ -187,7 +187,7 @@ def masterInputHandler():
         oldIndex = clientIndex
 
 
-ip = '0.0.0.0'
+ip = '192.168.36.33'
 port = 5000
 addr = (ip,port)
 
