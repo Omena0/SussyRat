@@ -28,7 +28,7 @@ banner0 = [
     "////////   ////// ///       //     ////// ///                               "
 ]
 
-colors = ['white', 'grey','red','light_red','blue','light_blue','cyan']
+colors = ['white','red','light_red','blue','light_blue','cyan']
 
 def printBanner(id=0):
     if id == 0:

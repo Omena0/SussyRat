@@ -712,3 +712,369 @@
 2023/04/24 20:22:35 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
 2023/04/24 20:22:35 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
 2023/04/24 20:22:35 [I] [root.go:215] frps started successfully
+2023/05/16 17:47:18 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 17:47:19 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 17:47:19 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 17:47:19 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 17:47:19 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 17:47:19 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 17:47:19 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 17:47:19 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 17:47:19 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 17:47:19 [I] [root.go:215] frps started successfully
+2023/05/16 17:52:18 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 17:52:19 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 17:52:19 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 17:52:19 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 17:52:19 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 17:52:19 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 17:52:19 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 17:52:19 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 17:52:19 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 17:52:19 [I] [root.go:215] frps started successfully
+2023/05/16 17:53:05 [W] [manager.go:89] [reqid: 47250cddc7677fd6] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:53:05 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 17:53:21 [W] [manager.go:89] [reqid: 454d735bea4b71bb] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:53:21 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 17:53:21 [W] [manager.go:89] [reqid: 204d4f4ad5b31993] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:53:21 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 17:53:33 [W] [manager.go:89] [reqid: 1870c81bce2864b6] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:53:33 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 17:53:34 [W] [manager.go:89] [reqid: 26e8ed60f5f8c8c4] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:53:34 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 17:54:54 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 17:54:57 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 17:54:57 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 17:54:57 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 17:54:57 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 17:54:57 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 17:54:57 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 17:54:57 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 17:54:57 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 17:54:57 [I] [root.go:215] frps started successfully
+2023/05/16 17:55:06 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 17:55:07 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 17:55:07 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 17:55:43 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 17:55:44 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 17:55:44 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 17:55:44 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 17:55:44 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 17:55:44 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 17:55:44 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 17:55:44 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 17:55:44 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 17:55:44 [I] [root.go:215] frps started successfully
+2023/05/16 17:59:13 [W] [manager.go:89] [reqid: fa4c016cc94057aa] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:59:13 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:00:17 [W] [manager.go:89] [reqid: bc184ae0d2f9fa9c] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:00:17 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:00:18 [W] [manager.go:89] [reqid: 9c6b5d7c7282d3d1] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:00:18 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:00:25 [W] [manager.go:89] [reqid: 3b3d81972e669d1d] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:00:25 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:00:26 [W] [manager.go:89] [reqid: dc2282ef5c647f7b] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:00:26 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:01:08 [W] [manager.go:89] [reqid: ad6309ef4af7f4ba] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:01:08 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:01:09 [W] [manager.go:89] [reqid: 67358860b7bc5fbc] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:01:09 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:02:58 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:02:58 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:02:58 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:02:58 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:02:58 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:02:58 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:02:58 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:02:58 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:02:58 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:02:58 [I] [root.go:215] frps started successfully
+2023/05/16 18:05:15 [W] [manager.go:89] [reqid: 77bfd4414b076c87] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:05:15 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:05:15 [W] [manager.go:89] [reqid: e9afb075f413766b] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:05:15 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:06:00 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:06:01 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:06:01 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:06:01 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:06:01 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:06:01 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:06:01 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:06:01 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:06:01 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:06:01 [I] [root.go:215] frps started successfully
+2023/05/16 18:08:27 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:08:28 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:08:28 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:08:28 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:08:28 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:08:28 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:08:28 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:08:28 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:08:28 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:08:28 [I] [root.go:215] frps started successfully
+2023/05/16 18:08:48 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:08:50 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:08:50 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:08:50 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:08:50 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:08:50 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:08:50 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:08:50 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:08:50 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:08:50 [I] [root.go:215] frps started successfully
+2023/05/16 18:23:33 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:23:35 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:23:35 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:23:35 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:23:35 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:23:35 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:23:35 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:23:35 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:23:35 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:23:35 [I] [root.go:215] frps started successfully
+2023/05/16 18:25:30 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:25:31 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:25:31 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:25:31 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:25:31 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:25:31 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:25:31 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:25:31 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:25:31 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:25:31 [I] [root.go:215] frps started successfully
+2023/05/16 18:26:05 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:26:06 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:26:06 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:26:06 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:26:06 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:26:06 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:26:06 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:26:06 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:26:06 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:26:06 [I] [root.go:215] frps started successfully
+2023/05/16 18:26:14 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:26:15 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:26:15 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:26:15 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:26:15 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:26:15 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:26:15 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:26:15 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:26:15 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:26:15 [I] [root.go:215] frps started successfully
+2023/05/16 18:26:39 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:26:41 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:26:41 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:26:41 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:26:41 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:26:41 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:26:41 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:26:41 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:26:41 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:26:41 [I] [root.go:215] frps started successfully
+2023/05/16 18:26:51 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:26:53 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:26:53 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:26:53 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:26:53 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:26:53 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:26:53 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:26:53 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:26:53 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:26:53 [I] [root.go:215] frps started successfully
+2023/05/16 18:26:57 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:26:58 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:26:58 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:26:58 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:26:58 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:26:58 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:26:58 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:26:58 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:26:58 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:26:58 [I] [root.go:215] frps started successfully
+2023/05/16 18:27:27 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:27:29 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:27:29 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:27:29 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:27:29 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:27:29 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:27:29 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:27:29 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:27:29 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:27:29 [I] [root.go:215] frps started successfully
+2023/05/16 18:28:50 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:28:51 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:28:51 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:28:51 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:28:51 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:28:51 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:28:51 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:28:51 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:28:51 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:28:51 [I] [root.go:215] frps started successfully
+2023/05/16 18:29:28 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:29:29 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:29:29 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:29:29 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:29:29 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:29:29 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:29:29 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:29:29 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:29:29 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:29:29 [I] [root.go:215] frps started successfully
+2023/05/16 18:30:04 [W] [manager.go:89] [reqid: bd5746718fa77346] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:30:04 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:30:05 [W] [manager.go:89] [reqid: d474c28a49a06abb] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:30:05 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:30:05 [W] [manager.go:89] [reqid: fc107927e9d5474c] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:30:05 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:30:06 [W] [manager.go:89] [reqid: 956d9ebe94af7550] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:30:06 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:30:26 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:30:27 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:30:27 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:30:27 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:30:27 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:30:27 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:30:27 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:30:27 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:30:27 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:30:27 [I] [root.go:215] frps started successfully
+2023/05/16 18:31:45 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:31:46 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:31:46 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:31:46 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:31:46 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:31:46 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:31:46 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:31:46 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:31:46 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:31:46 [I] [root.go:215] frps started successfully
+2023/05/16 18:32:44 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:32:45 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:32:45 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:32:45 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:32:45 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:32:45 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:32:45 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:32:45 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:32:45 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:32:45 [I] [root.go:215] frps started successfully
+2023/05/16 18:33:29 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:33:29 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:33:29 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:33:29 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:33:29 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:33:29 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:33:29 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:33:29 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:33:29 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:33:29 [I] [root.go:215] frps started successfully
+2023/05/16 18:33:57 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:33:58 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:33:58 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:33:58 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:33:58 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:33:58 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:33:58 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:33:58 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:33:58 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:33:58 [I] [root.go:215] frps started successfully
+2023/05/16 18:34:20 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:34:21 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:34:21 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:34:21 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:34:21 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:34:21 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:34:21 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:34:21 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:34:21 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:34:21 [I] [root.go:215] frps started successfully
+2023/05/16 18:34:32 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:34:33 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:34:33 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:34:33 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:34:33 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:34:33 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:34:33 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:34:33 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:34:33 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:34:33 [I] [root.go:215] frps started successfully
+2023/05/16 18:35:23 [W] [manager.go:89] [reqid: 5163d0cf03ab2073] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:35:23 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:35:24 [W] [manager.go:89] [reqid: 754c0e3c7a983da1] send Login request to plugin [user-manager] error: Post "http://127.0.0.1:9000/handler?op=Login&version=0.1.0": dial tcp 127.0.0.1:9000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:35:24 [W] [service.go:378] register control error: send Login request to plugin error
+2023/05/16 18:35:26 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:35:28 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:35:28 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:37:50 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:37:50 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:37:50 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:37:50 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:37:50 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:37:50 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:37:50 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:37:50 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:37:50 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:37:50 [I] [root.go:215] frps started successfully
+2023/05/16 18:39:02 [I] [root.go:206] frps uses config file: config.txt
+2023/05/16 18:39:03 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/16 18:39:03 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/16 18:39:03 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/16 18:39:03 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/16 18:39:03 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/16 18:39:03 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/16 18:39:03 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/16 18:39:03 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/16 18:39:03 [I] [root.go:215] frps started successfully
+2023/05/27 14:43:31 [I] [root.go:206] frps uses config file: config.txt
+2023/05/27 14:43:33 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/27 14:43:33 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/27 14:43:33 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/27 14:43:33 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/27 14:43:33 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/27 14:43:33 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/27 14:43:33 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/27 14:43:33 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/27 14:43:33 [I] [root.go:215] frps started successfully
+2023/05/27 14:43:43 [I] [root.go:206] frps uses config file: config.txt
+2023/05/27 14:43:46 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/27 14:43:46 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/27 14:43:46 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/27 14:43:46 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/27 14:43:46 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/27 14:43:46 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/27 14:43:46 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/27 14:43:46 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/27 14:43:46 [I] [root.go:215] frps started successfully
+2023/05/27 14:45:14 [I] [root.go:206] frps uses config file: config.txt
+2023/05/27 14:45:14 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/27 14:45:14 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/27 14:45:14 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/27 14:45:14 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/27 14:45:14 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/27 14:45:14 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/27 14:45:14 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/27 14:45:14 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/27 14:45:14 [I] [root.go:215] frps started successfully
+2023/05/27 14:46:20 [I] [root.go:206] frps uses config file: config.txt
+2023/05/27 14:46:23 [I] [service.go:155] plugin [port-manager] has been registered
+2023/05/27 14:46:23 [I] [service.go:155] plugin [user-manager] has been registered
+2023/05/27 14:46:23 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/05/27 14:46:23 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/05/27 14:46:23 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/05/27 14:46:23 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/05/27 14:46:23 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/05/27 14:46:23 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/05/27 14:46:23 [I] [root.go:215] frps started successfully
+2023/06/08 13:34:10 [I] [root.go:206] frps uses config file: config.txt
+2023/06/08 13:34:11 [I] [service.go:155] plugin [port-manager] has been registered
+2023/06/08 13:34:11 [I] [service.go:155] plugin [user-manager] has been registered
+2023/06/08 13:34:11 [I] [service.go:200] frps tcp listen on 0.0.0.0:5000
+2023/06/08 13:34:11 [I] [service.go:210] frps kcp listen on udp 0.0.0.0:7000
+2023/06/08 13:34:11 [I] [service.go:261] http service listen on 0.0.0.0:80
+2023/06/08 13:34:11 [I] [service.go:276] https service listen on 0.0.0.0:443
+2023/06/08 13:34:11 [I] [service.go:302] nat hole udp service listen on 0.0.0.0:7001
+2023/06/08 13:34:11 [I] [service.go:317] Dashboard listen on 0.0.0.0:5001
+2023/06/08 13:34:11 [I] [root.go:215] frps started successfully

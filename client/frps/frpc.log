@@ -239,3 +239,175 @@
 2023/04/24 20:22:32 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
 2023/04/24 20:22:35 [W] [service.go:134] login to server failed: tls: first record does not look like a TLS handshake
 2023/04/24 20:23:07 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:46:30 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:46:31 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:46:36 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:46:41 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:46:46 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:46:51 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:46:56 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:47:02 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:47:07 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:47:12 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:47:17 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:47:20 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 17:51:49 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 17:52:01 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:52:06 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:52:11 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:52:16 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 17:52:19 [W] [service.go:134] login to server failed: tls: first record does not look like a TLS handshake
+2023/05/16 17:53:05 [E] [service.go:290] send Login request to plugin error
+2023/05/16 17:53:05 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 17:53:21 [E] [service.go:290] send Login request to plugin error
+2023/05/16 17:53:21 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 17:53:21 [E] [service.go:290] send Login request to plugin error
+2023/05/16 17:53:21 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 17:53:33 [E] [service.go:290] send Login request to plugin error
+2023/05/16 17:53:33 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 17:53:34 [E] [service.go:290] send Login request to plugin error
+2023/05/16 17:53:34 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 17:55:37 [W] [service.go:134] login to server failed: connection write timeout
+2023/05/16 17:55:37 [W] [service.go:134] login to server failed: connection write timeout
+2023/05/16 17:55:50 [W] [service.go:134] login to server failed: tls: first record does not look like a TLS handshake
+2023/05/16 17:59:13 [E] [service.go:290] send Login request to plugin error
+2023/05/16 17:59:13 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:00:17 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:00:17 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:00:18 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:00:18 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:00:25 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:00:25 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:00:26 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:00:26 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:01:08 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:01:08 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:01:09 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:01:09 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:01:17 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:01:22 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:01:27 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:01:32 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:01:37 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:01:42 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:01:47 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:01:52 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:01:57 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:02:02 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:02:07 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:02:26 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:02:27 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:02:32 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:02:37 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:02:42 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:02:47 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:02:52 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:02:57 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:03:00 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:05:15 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:05:15 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:05:15 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:05:15 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:06:17 [W] [service.go:134] login to server failed: tls: first record does not look like a TLS handshake
+2023/05/16 18:06:17 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:08:26 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:08:29 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:08:47 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:08:50 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:23:19 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:23:20 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:23:32 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:23:35 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:25:28 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:25:31 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:25:50 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:25:51 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:26:15 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:26:16 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:26:33 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:26:34 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:26:39 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:26:42 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:26:58 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:26:58 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:27:02 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:27:03 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:27:19 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:27:20 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:27:25 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:27:28 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:27:45 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:27:46 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:28:46 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:28:48 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:28:51 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:28:55 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:28:56 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:28:59 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:29:00 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:29:02 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:29:03 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:29:24 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:29:24 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:29:29 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:29:53 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:29:53 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:30:04 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:30:04 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:30:05 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:30:05 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:30:05 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:30:05 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:30:06 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:30:06 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:30:12 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:30:12 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:30:17 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:30:17 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:30:22 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:30:22 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:30:27 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:30:27 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:31:30 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:31:31 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:31:52 [W] [service.go:134] login to server failed: tls: first record does not look like a TLS handshake
+2023/05/16 18:31:53 [W] [service.go:134] login to server failed: tls: first record does not look like a TLS handshake
+2023/05/16 18:32:02 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:32:03 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:32:39 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:32:40 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:32:44 [W] [service.go:134] login to server failed: tls: first record does not look like a TLS handshake
+2023/05/16 18:32:57 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:32:58 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:33:17 [W] [service.go:134] login to server failed: tls: first record does not look like a TLS handshake
+2023/05/16 18:33:18 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:33:34 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:33:35 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:33:47 [W] [service.go:134] login to server failed: read tcp 127.0.0.1:63691->127.0.0.1:5000: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/05/16 18:33:47 [W] [service.go:134] login to server failed: read tcp 127.0.0.1:63696->127.0.0.1:5000: wsarecv: An existing connection was forcibly closed by the remote host.
+2023/05/16 18:33:50 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:33:54 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:33:55 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:33:58 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:34:16 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/16 18:34:20 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:34:33 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:34:33 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:35:06 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:35:07 [W] [service.go:134] login to server failed: session shutdown
+2023/05/16 18:35:23 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:35:23 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/16 18:35:24 [E] [service.go:290] send Login request to plugin error
+2023/05/16 18:35:24 [W] [service.go:134] login to server failed: send Login request to plugin error
+2023/05/27 14:46:06 [W] [service.go:134] login to server failed: session shutdown
+2023/05/27 14:46:08 [W] [service.go:134] login to server failed: session shutdown
+2023/05/27 14:46:50 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/05/27 14:46:51 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/06/08 13:33:51 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/06/08 13:33:52 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/06/08 13:33:57 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/06/08 13:34:02 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/06/08 13:34:07 [W] [service.go:134] login to server failed: dial tcp 0.0.0.0:0->0.0.0.0:5000: connectex: No connection could be made because the target machine actively refused it.
+2023/06/08 13:34:10 [W] [service.go:134] login to server failed: tls: first record does not look like a TLS handshake
+2023/06/08 13:34:19 [W] [service.go:134] login to server failed: session shutdown
+2023/06/08 13:34:21 [W] [service.go:134] login to server failed: session shutdown

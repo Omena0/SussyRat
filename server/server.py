@@ -53,7 +53,7 @@ def get_name(ip):
 
 def csHandler(cs,addr):
     try:
-        cs.send('get(ip)'.encode())
+        cs.send('get ip'.encode())
         sleep(0.1)
         ip = cs.recv(1024).decode()
         
@@ -90,7 +90,8 @@ def csHandler(cs,addr):
             except: pass
             break
         else:
-            print(f'[MSG] <{ip}> ({name}) {msg}') # [MSG] <127.0.0.1> (Test) Sus amogus
+            if index != clientIndex: print(f'[MSG] <{ip}> ({name}) {msg}') # [MSG] <127.0.0.1> (TestName) Hello, world!
+            else: print(f'\r{msg}\n> ',end='')
 
 
 def inputHandler(cs,addr,index,ip):
@@ -98,7 +99,7 @@ def inputHandler(cs,addr,index,ip):
     oldIndex = 0
     cmd = ''
     while True:
-        sleep(0.1)
+        sleep(0.01)
         if stop == index:
             clientIndex = 0
             break
@@ -135,10 +136,10 @@ def inputHandler(cs,addr,index,ip):
                             cs.close()
                             break
                         cmd = ''
-                        print()
+                        print('\n> ',end='')
                 elif ord(key) == 8: # Backspace to erase char
                     cmd = cmd[:-1]
-                    print(f'\r{cmd}',end=' ') #>​<
+                    print(f'\r> {cmd}',end='   ') #>​<
                 else:
                     cmd = cmd + key
                     print(key,end='')
@@ -151,7 +152,7 @@ def masterInputHandler():
     oldIndex = -1
     cmd = ''
     while True:
-        sleep(0.1)
+        sleep(0.01)
         print('',end='',flush=True)
         if clientIndex == -1:
             clientIndex = 0
@@ -181,7 +182,7 @@ def masterInputHandler():
                         print(f'\nClient index out of range. [{clientIndex}]\n')
                         clientIndex = 0
                     cmd = ''
-                    print()
+                    print('')
                 else:
                     cmd = cmd + key
         oldIndex = clientIndex
