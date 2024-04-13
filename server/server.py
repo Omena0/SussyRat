@@ -1,4 +1,4 @@
-from _modules import banner, tunnel, kbhit
+from _modules import banner, kbhit
 import os
 
 os.system('cls')
@@ -188,7 +188,7 @@ def masterInputHandler():
         oldIndex = clientIndex
 
 
-ip = '0.0.0.0'
+ip = '192.168.36.33'
 port = 5000
 addr = (ip,port)
 
@@ -204,10 +204,6 @@ s.listen(10)
 
 clientIndex = 0
 stop = 0
-
-sleep(0.4)
-print('[INIT] Starting FRP Tunnel...')
-tunnel.start()
 
 sleep(0.3)
 print('[INIT] Starting Masted handler..')

